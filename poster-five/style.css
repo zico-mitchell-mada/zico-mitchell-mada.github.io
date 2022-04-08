@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+div.poster {
+    background-color: black;
+    background-image: url(blurry-city.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    /* background-image: url(shinji.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center center; */
+}
+
+div.text {
+    font-size: 120px;
+    font-family: 'Arial Narrow';
+    text-align: left center;
+    color: white;
+    -webkit-text-stroke: 2px;
+    transition: 0.5s;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col 
+
+div.w1-2 {
+    width: 50%;
+}
+
+/* rule 1  */
+
+div.text.one {
+    font-size: 40px;
+    
+}
+
+div.text.two {
+    font-size: 80px;
+}
+
+div.text.three {
+    font-size: 120px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    background-image: url(blurry-city.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+div.text.b {
+    background-image: url(blurry-city.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+div.text.c {
+    background-image: url(blurry-city.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+/* rule 3  */
+
+div.text.x {
+    font-weight: 200;
+}
+
+div.text.y {
+    font-weight: 900;
+}
+
+div.text.z {
+    font-weight: 500;
+}
+
+div.small {
+    font-size: 25px;
+    text-align: center;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
