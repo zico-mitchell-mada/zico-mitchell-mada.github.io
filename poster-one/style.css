@@ -16,11 +16,16 @@ div.text {
     transition: 0.5s;
 }
 
+@font-face {
+    font-family: "Pringip-Signage";
+    src: url(Pringip-Signage.woff);
+}
+
 /* rule 1  */
 
 div.text.one {
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    font-family: "Pringip-Signage";
 }
 
 div.text.two {
