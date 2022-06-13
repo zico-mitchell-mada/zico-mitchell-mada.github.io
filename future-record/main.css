@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+img {
+    width: 100%;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.logo {
+    padding: 10px;
+    width: 50%;
+}
+
+div.nav {
+    padding: 10px;
+    width: 50%;
+}
+
+div.masthead {
+    font-size: 30vw;
+    line-height: 30vw;
+    padding: 10px;
+}
+
+div.about {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+div.footnotes {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+}
+
+div.note {
+    width: 33.333%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.title {
+    font-size: 144px;
+    font-weight: bold;
+    letter-spacing: -8px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    
+
+}
+
+div.keywords {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+div.item {
+    width: 33.333%;
+    padding: 20px;
+}
+
+div.number {
+    font-size: 40px;
+}
+
+div.featureimage {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+div.summary {
+    padding: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
